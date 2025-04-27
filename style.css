@@ -9,6 +9,8 @@ body {
   nav {
     background: #004080;
     padding: 1em;
+    display:flex;
+    align-items: center;
   }
   
   nav ul {

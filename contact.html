@@ -6,13 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="activites.html">Activités</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <nav id="menu"></nav>
 
   <main>
     <h1>Contactez-nous</h1>
@@ -23,5 +17,13 @@
   <footer>
     <p>&copy; 2025 Notre Association</p>
   </footer>
+  
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('menu').innerHTML = data;
+      });
+  </script>
 </body>
 </html>
