@@ -4,10 +4,11 @@ body {
     padding: 0;
     background: #f0f2f5;
     color: #333;
+    font-size: small;
   }
   
   nav {
-    background: #004080;
+    background: rgb(227, 108, 10);
     padding: 1em;
     display:flex;
     align-items: center;
@@ -31,6 +32,12 @@ body {
     text-decoration: underline;
   }
   
+  h1 {
+    font-size: larger;
+    font-weight: bold;
+    margin: 0;
+  }
+ 
   main {
     padding: 2em;
   }
