@@ -7,9 +7,18 @@ body {
     font-size: small;
   }
   
+  header {
+    background: rgb(8, 53, 94);
+    color: white;
+    padding-left: 1em;
+    padding-top: 0.8em;
+    text-align: left;
+    font-size: 1.5em;
+  }
+
   nav {
-    background: rgb(227, 108, 10);
-    padding: 1em;
+    background: rgb(8, 53, 94);
+    padding: 2em;
     display:flex;
     align-items: center;
   }
@@ -36,6 +45,7 @@ body {
     font-size: larger;
     font-weight: bold;
     margin: 0;
+    color: rgb(8, 53, 94);
   }
  
   main {
