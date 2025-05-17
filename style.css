@@ -87,8 +87,8 @@ main {
 }
 
 .documents li {
-  background: #8fd3f8;
-  color: black;
+  background: rgba(227, 108, 10, 0.8);
+  color: white;
   padding: 5px;
   margin: 5px;
 }
