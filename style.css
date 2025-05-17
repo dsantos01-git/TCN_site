@@ -23,6 +23,7 @@ header {
 /* Responsive layout on smaller screens (600px wide or less) */
 @media screen and (max-width: 620px) {
   header {
+    padding-left: 0;
     text-align: center;
   }
 }
