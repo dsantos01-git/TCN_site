@@ -14,16 +14,35 @@ header {
     padding-top: 0.8em;
     text-align: left;
     font-size: 1.3em;
+    /*position: fixed; /* Rend le header fixe */
+    /*top: 0; /* Positionne en haut de la page */
+    /*width: 100%; /* S'assure qu'il occupe toute la largeur */
+    /*z-index: 1000; /* Place le header au-dessus des autres éléments */
   }
 
-nav {
+/* Responsive layout on smaller screens (600px wide or less) */
+@media screen and (max-width: 620px) {
+  header {
+    text-align: center;
+  }
+}
+
+  nav {
     background: rgb(8, 53, 94);
-    padding: 2em;
+    /*padding: 2em;*/
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     display: flex;
     align-items: center; /* Centre verticalement */
     justify-content: center; /* Centre horizontalement */
+    /*position: fixed; /* Rend la barre de navigation fixe */
+    /*top: 1.3em; /* Ajusté en fonction de la hauteur du header */
+    /*width: 100%; /* S'assure qu'elle occupe toute la largeur */
+    /*z-index: 999; /* Place la navigation au-dessus des autres éléments */
   }
-  
+
 nav ul {
     list-style: none;
     display: flex;
@@ -50,12 +69,13 @@ h1 {
   }
  
 main {
+    /*padding-top: 20em; /* Espace pour le header fixe */
     padding: 2em;
     /* text-align: center; */
   }
  
 /* Responsive layout on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   main {
     padding: 0.5em;
   }
@@ -71,6 +91,7 @@ main {
   width: 40%;
   padding: 15px;
   margin-top: 7px;
+  margin-left: 10%;
   text-align: left;
 }
 
@@ -85,6 +106,9 @@ main {
   /* For mobile phones: */
   .left, .right {
     width: 100%;
+  }
+  .left {
+    margin-left: 0;
   }
 }
 
