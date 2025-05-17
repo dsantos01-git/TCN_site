@@ -19,8 +19,9 @@ header {
 nav {
     background: rgb(8, 53, 94);
     padding: 2em;
-    display:flex;
-    align-items: center;
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
   }
   
 nav ul {
@@ -50,6 +51,7 @@ h1 {
  
 main {
     padding: 2em;
+    /* text-align: center; */
   }
  
 /* Responsive layout on smaller screens (600px wide or less) */
@@ -66,7 +68,7 @@ main {
 .left {
   float: left;
   background-color: #e5e5e5;
-  width: 50%;
+  width: 40%;
   padding: 15px;
   margin-top: 7px;
   text-align: left;
@@ -74,7 +76,7 @@ main {
 
 .right {
   float: left;
-  width: 50%;
+  width: 40%;
   padding: 15px;
   /*margin-top: 7px;*/
 }
@@ -97,7 +99,6 @@ footer {
     background: #eee;
     text-align: center;
     padding: 1em;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-top: 2em;
   }
-  
