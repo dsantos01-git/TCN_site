@@ -118,13 +118,19 @@ main {
   }
 }
 
+ul {
+  padding: 0;
+  line-height: 1.2em;
+  margin-inline-start: 1.2em;
+  margin-block-start: 0;
+}
+
 li {
-  list-style: circle;
   font-size: smaller;
 }
 
 footer {
-    background: #eee;
+    background: #b5e4f6;
     text-align: center;
     padding: 1em;
     font-size: 0.8em;
