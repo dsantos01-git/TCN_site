@@ -103,9 +103,15 @@ main {
   /*margin-top: 7px;*/
 }
 
-.box_index {
-  display:flex;
-  justify-content: space-between;
+ul {
+  padding: 0;
+  line-height: 1.2em;
+  margin-inline-start: 1.2em;
+  margin-block-start: 0;
+}
+
+li {
+  font-size: smaller;
 }
 
 @media only screen and (max-width: 620px) {
@@ -118,21 +124,17 @@ main {
   }
 }
 
-ul {
-  padding: 0;
-  line-height: 1.2em;
-  margin-inline-start: 1.2em;
-  margin-block-start: 0;
-}
-
-li {
-  font-size: smaller;
-}
 
 footer {
     background: #b5e4f6;
     text-align: center;
     padding: 1em;
     font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.5);
     margin-top: 2em;
+  }
+
+footer a {
+    color: rgba(0, 0, 0, 0.5);
+    /*text-decoration: none;*/
   }
