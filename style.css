@@ -125,14 +125,21 @@ li {
   }
 }
 
+@-webkit-keyframes clignoter {
+    0% { opacity: 1; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1; }
+}
+
 @keyframes clignoter {
-  0% { opacity: 1; }
-  50% { opacity: 0.2; }
-  100% { opacity: 1; }
+    0% { opacity: 1; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1; }
 }
 
 .clignotant {
-  animation: clignoter 2.5s infinite; /* Animation qui clignote toutes les secondes */
+    -webkit-animation: clignoter 2.5s infinite; /* Préfixe pour Chrome/Android */
+    animation: clignoter 2.5s infinite;
 }
 
 footer {
