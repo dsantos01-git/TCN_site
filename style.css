@@ -138,6 +138,9 @@ li {
 }
 
 .clignotant {
+    color: rgb(8, 53, 94);
+    font-weight: bold;
+    font-style: italic;
     -webkit-animation: clignoter 2.5s infinite; /* Préfixe pour Chrome/Android */
     animation: clignoter 2.5s infinite;
 }
