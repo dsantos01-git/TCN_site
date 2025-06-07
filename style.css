@@ -108,6 +108,7 @@ ul {
   line-height: 1.2em;
   margin-inline-start: 1.2em;
   margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 li {
@@ -126,7 +127,7 @@ li {
 
 
 footer {
-    background: #b5e4f6;
+    background: rgb(166, 204, 226);
     text-align: center;
     padding: 1em;
     font-size: 0.8em;
