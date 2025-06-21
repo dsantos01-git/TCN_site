@@ -115,6 +115,16 @@ li {
   font-size: smaller;
 }
 
+.tarif_def {
+  font-weight: bold;
+  color: rgb(12, 70, 123);
+}
+
+.tarif_ext {
+  color: rgba(182, 47, 2, 0.623);
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .left, .right, .bloc_milieu {
@@ -125,6 +135,7 @@ li {
   }
 }
 
+/* garder les deux blocs keyframes ci-dessous pour assurer la compatilibité mobiles et desktop */
 @-webkit-keyframes clignoter {
     0% { opacity: 1; }
     50% { opacity: 0.2; }
